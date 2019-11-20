@@ -1,0 +1,148 @@
+body
+{
+	margin: 0px;
+	background-color: black;
+}
+
+img.header
+{
+	
+	image-position:right top;
+	margin-top: 10px;
+}
+font
+{
+	padding-left: 70px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+h2#3
+{
+ text-align: right;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: purple;
+	font-size: 25px;
+	text-transform: lowercase;
+	padding-left: 40px;
+  
+}
+ul
+{
+	list-style-type: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  padding: 0px;
+  margin: 0px;
+  overflow:auto;
+  background-color: black;
+	
+}
+ul li
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float: left;
+	background-color: blue;
+	color: white;
+}
+
+li a{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	background-color: blue;
+}
+li a.active{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: purple;
+	color: white;
+	text-transform: capitalize;
+}
+li a:hover{
+	background-color: purple;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: white;
+	text-transform: capitalize;
+}
+
+
+h1
+{
+	text-align: justify;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    padding-top: 40px;
+	text-transform: capitalize;
+	font-size: 50px;
+	color: yellow;
+}
+h2
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: yellow;
+	text-align: justify;
+	font-size: 50px;
+	text-transform: capitalize;
+}
+
+h3
+{
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: aqua;
+}
+img
+{
+	position: absolute;
+	left: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	top:auto;
+	height: auto;
+	right:auto;
+	z-index: -2;
+    opacity: inherit;
+}
+p
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: justify;
+	width: 50%;
+font-size: 25px;
+	color: white;
+}
+
+a:link {
+  background-color: yellow;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 25px;
+	padding: 20px;
+	padding-top: 10px;
+text-decoration: none;
+}
+
+a:visited {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  background-color: yellow;
+}
+
+a.for:hover {
+  background-color: aqua;
+	text-transform: capitalize;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: underline;
+	color: purple;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  }
+
+ 
+
+
+ 

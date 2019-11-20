@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HELP</title>
+	<style>
+h1{
+	color:brown;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	}
+		@media screen and (max-width:400px) {
+	 /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+ 
+  }
+		</style>
+	</head>
+
+<body><br>
+	<font size="+1"><b>Welcome to the lightning of the world.Please complete fields below so we can answer your inquiry in the best possible way.</b></font>
+	<h1><b><justify>Your Details</justify></b></h1>
+	<font size="+2"><b>Who Are You:</b></font>
+	<center>I represnt a company
+	<input type="radio" name="company" value="I represent a company" checked><br>
+	I am a Consumer
+	<input type="radio" name="company" value="I am a Consumer"></center>
+	<script type="text/javascript" src="website.js"></script>
+
+<form onsubmit="return formValidator()" >
+First Name: <input type="text" id="firstname" required /><br><br>
+Last Name:<input type="text" id="lastname" required /><br/><br>
+Address: <input type="address"  id="addr" required /><br /><br>
+Zip Code: <input type="text" id="zip" required /><br /><br>
+State: <select id="state">
+<option>Please Choose</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+	<option>bihar</option>
+	<option>Chattishgarh</option>
+<option>chandigarh</option>
+<option>daman and diu</option>
+<option>Delhi</option>
+<option>Goa</option>
+	<option>Gujarat</option>
+<option>Harayana</option>
+<option>Himachal Pradesh</option>
+<option>Jammu and Kashmir</option>
+	<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharastra</option>
+<option>Manipur</option>
+<option>Mizorean</option>
+<option>Leh-Ladakh</option>
+	<option>Orissa</option>
+<option>Pondichary</option>
+	<option>Punjab</option>
+<option>Rajashthan</option>
+<option>sikkim</option>
+	<option>Tamilnadu</option>
+<option>Telangana</option>
+<option>Tripur</option>
+<option>Uttar Pradesh</option>
+	<option>Uttrakhand</option>
+	<option>Uttranchal</option>
+<option>West Bengal</option>
+</select><br><br>
+Username: <input type="text" id="username" required /><br><br>
+Email: <input type="text" id="email" required /><br /><br>
+<input type="reset" name="reset" value="reset"/>
+	
+</form>
+
+	<h1><b>Your Question</b></h1>
+	      *Enter Your Question here
+	<textarea name="Question" rows="10" cols="30" placeholder="__type your question here__"></textarea><br><br>
+	<b><font size="+1">*May we contact you in the future to help us to improve our services?</font></b>
+		yes<input type="radio" name="question" value="yes" checked/>
+		no<input type="radio" name="question" value="no"/><br>
+<a href="help.html"><input type="submit" name="sumbit" value="submit"></a>
+	</body>
+</html>

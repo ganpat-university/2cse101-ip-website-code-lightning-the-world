@@ -1,0 +1,714 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> view products </title>
+	 <meta charset="utf-8">
+ 
+  
+	<style>
+		body
+		{margin:0px;}
+		.ii{
+			background-color: black;
+			margin: 0px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			padding: 0px;
+			
+		}
+		ul
+{
+	list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow:auto;
+ font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		
+ul li{
+	padding: 0px;
+	margin: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float: left;
+	background-color: yellow;
+	color: purple;
+}
+
+li a.s{
+  display: block;
+	text-transform: capitalize;
+  color: purple;
+	font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: yellow;
+}
+	li a.h{
+  display: block;
+		font-size: 20px;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+		text-transform: capitalize;
+  text-decoration: none;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: yellow;
+}
+	li a.r{
+  display: block;
+  color: purple;
+		text-transform: capitalize;
+  text-align: center;
+  padding: 14px 16px;
+		font-size: 20px;
+  text-decoration: none;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: yellow;
+}
+	li a.e{
+  display: block;
+  color: purple;
+		font-size: 20px;
+  text-align: center;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		text-transform: capitalize;
+  padding: 14px 16px;
+  text-decoration: none;
+	background-color: yellow;
+}
+.active{
+	background-color: purple;
+	color: yellow;
+	text-transform: capitalize;
+	 padding:21px 20px 9px  ;
+	text-decoration:none;
+	font-size: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	}
+		li a:hover{
+	background-color: purple;
+	color: white;
+	text-transform: capitalize;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+
+
+		.m{
+			color: black;
+			background-color: white;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		a.rud:active{
+			color: black;
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+		}
+		a.rud:hover {
+  background-color:black;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+		.t:visited{
+		 color: purple;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.t:active{
+			color:blue;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 20px;
+			text-decoration:none;
+		}
+		.t:link{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration:none;
+			font-size: 20px;
+			color:blue;
+		}
+.t:hover{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration:underline;
+				color:red;
+		}
+		.o{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: white;
+			color: black;
+			font-size: 25px;
+			text-decoration: none;
+			float: left;
+			padding-right: 54px;
+			display: block;
+		}
+		.o:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: white;
+			color:black;
+			
+		}
+		h4
+		{
+			overflow: visible;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		text-align: justify;
+    padding-top: 40px;
+	text-transform: capitalize;
+	font-size: 50px;
+	color:burlywood;
+			margin-bottom: 250px;
+	
+		}
+		.tttt
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	position: absolute;
+	left: auto;
+	top:auto;
+	height: auto;
+	right:auto;
+	z-index: -2;
+    opacity: inherit;
+}
+		.qq{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-top: 10000px;
+			
+		}
+		.ii{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: black;
+			padding: 0px;
+			margin: 0px;
+	}
+		.zz{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			width: 20%;
+			height: 60px;	
+		}
+		.oi{
+			margin-top: 0px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 30px;
+			float: left;
+		}
+		.iuy{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-right: 0px;
+			float: left;
+		}
+		.ok{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			float: left;
+			margin-left: 30px;
+		}
+		
+		.zx{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 50px;
+			background-color: beige;
+			color: black;
+		}
+		.ww{
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			
+		}
+		.qsc{
+			text-align: center;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+		
+		
+		
+		.zzz{
+			float: right;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+			
+			
+		}
+		.iu{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: beige;
+			color: black;
+			margin-left: 70px;
+		}
+		.vv{
+			background-color: grey;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 30px;
+			margin-top: 5px;
+		}
+		.mn{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: beige;
+			margin-top;5px;
+			float: right;
+			
+			text-decoration:none; 
+			
+		}
+		.mnb{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: grey;
+			color:azure;
+			text-decoration: none;
+			font-size: 25px;
+			float: right;
+			margin: 0px;
+			border: 1px solid  #000000;
+
+		}
+		.mnb:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color:black;
+			color: ghostwhite;
+		}
+		.nn{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+			background-color: beige;
+			margin-top;5px;
+			float: right;
+			color: black;
+						text-decoration:none; 
+		}
+		.hh{
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			margin-left: 30px;
+		}
+		.d{
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 20px;
+			text-align: center;
+			padding: 3px;
+			margin-left: 10px;
+		}
+		.s{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			display: inline-block;
+			background-color:burlywood;
+  color: white;
+  padding: 5px 25px;
+			text-decoration:none;
+  text-align: center;
+		}
+		.y{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 20px;
+			margin-left: 90px;
+		}
+		.k{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 35px;
+		}
+		.b{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+			margin-left: 190px;
+			margin-top: 6px;
+		}
+		.j{
+			margin-left: 20px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.h{
+			margin-left: 20px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+		.j:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.h:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.b:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.l{
+			color: darkgray;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			margin-left: 120px;
+		}
+		.l{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			color: darkgray;
+			
+		}
+		.l:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.g{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: darkgray;
+			text-decoration: none;
+			margin-left: 100px;
+		}
+		.g:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.f{
+			margin-left: 80px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			color: darkgray;
+		}
+		.f:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.v{
+			margin-left: 140px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			text-decoration: none;
+		}
+		.v:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: darkgray;
+		}
+		.sh{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 100px;
+			text-decoration: none;
+			color: darkgray;
+		}
+		.sh:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.x{
+			margin-left: 80px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			color: darkgray;
+		}
+		.x:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+		color: black;
+		}
+		
+		.i{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 180px;
+			color: darkgray;
+			text-decoration: none;
+		}
+		.i:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.rudra{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: beige;
+			padding: 20px;
+			font-size: 15px;
+			
+		}
+		.tt{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			text-decoration: none;
+		}
+		.tt:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			
+		}
+		@media screen and (max-width:400px) {
+	 /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+ 
+  }
+</style>	
+</head>
+<body>
+	
+	<script>
+	var n=parseInt(window.prompt("enter your name"));
+		 src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+		/*var slideIndex=0;
+		showSlides();
+		function showSlides() {
+			var i;
+			var slides=documnet.getElementsByClassName("myslides");
+													 
+			var dots=document.getElementsByClassName("dot");
+			for (i=0;i< slides.length; i++){
+				slides[i].style.display="none";
+			}
+			slideIndex++;
+			if(slideIndex > slides.length){slideIndex=1}
+for(i=0;i<dots.length; i++ ){
+		dots[i].className=dots[i].className.replace("active","");
+}
+			slides[slideIndex-1].style.display="block";
+			dots[slideIindex-1].className+="active";
+			setTimeout(showSlides,2000);
+		}
+	*/
+	</script>
+	
+	
+	<div class="ii">		  
+ <img class="header" src="logo 1.png" width="70px"   align="left"/>
+		<font  size="+5" color="aqua"	>Lightning The world</font>
+	
+<ul>
+		<li><br><a class="active" href="website.html">Menu</a></li>
+			<li><a class="s" href="help1.html" >contact us</a></li>
+		<li><a class="e" href="abiut us.html">about</a></li>
+		<li><a class="r" href="custm.html" >customer care</a></li>
+	</ul>
+	</div>
+	
+	<img class="tttt" src="bath.jpg">
+		<h4>DISTINGUISH YOUR STYLE</h4>
+	
+	<div class="vv">
+		<center>__________________________<b>Bath&nbsp;Lights</b>_________________________
+</center><br>
+	</div><br>
+	
+		
+	</div>
+		<ul>
+		<li class="ww">
+	<img src="BS.jpg">
+
+	<div><b><font size="+2">Retro,Modern,Rustic</font></b><br>
+		<b><font size="+2"> &
+		more</font></b>
+		<ul>
+			<li class="mn"><a class="mnb" href="bath lights.html" target="_blank">Shop Bath lights</a></li></ul>
+		
+		</div>
+	</li>
+			
+		<li class="zx">
+	<img  src="BSs.jpg">
+
+	<div><b><font size="+2">Vanity Lightning</font></b><br><br>
+		<ul>
+			<li class="mn"><a class="mnb" href="bath lights.html">Explore</a></li>
+		</ul>
+	</div>
+		</li>
+				
+	<li class="zx">
+		
+		<img src="bsss.jpg">
+		<div><b><font size="+2">Industrial Chic To<br> Rustic Farmhouse<br> Bath lights</font></b>
+			<ul>
+			<li class="mn"><a class="mnb" href="bath lights">Explore</a></li></ul>
+		
+		</div>
+		</li>
+	</ul>
+	<div class="vv">
+       <center>__________________________<b class="qsc">Decorated Lights</b>____________________________</center><br>
+	</div><br>
+	
+	<ul>
+	<li class="ww">
+		
+		<img src="tre.jpg">
+		<div><font size="+2"><b>Greets your Guests</b></font><br><br>
+			<ul >
+				<li class="mn"><a class="mnb" href="#">&nbsp;&nbsp;Shop sconces&nbsp;&nbsp;</a></li>
+				</ul>
+		
+		</div>
+		
+		</li>
+	
+	
+		
+		<li class="iu">
+			<img src="ooo.jpg">
+			<div><b><font size="+1">Lighting,Rugs & Home Decore</font></b><br>
+				<ul>
+				<li class="nn"><br>
+					<a class="mnb" href="#">&nbsp;&nbsp;Show more&nbsp;&nbsp;</a></li>
+					</ul>
+		
+			
+			
+			</div>			
+			</li>
+		
+		
+		
+		<li class="iu">
+			<img src="uuu.jpg">
+			<div><b><font size="+2">Modern Chandelires</font></b><br><br>
+				<ul >
+				<li class="mn" ><a class="mnb" href="#">&nbsp;&nbsp;Shop the Look&nbsp;&nbsp;</a></li>
+				</ul>
+			
+			
+			</div>			
+			</li>
+		
+		</ul>
+	<div class="vv">
+       <center >_______________________________<b class="qsc">LED lmaps</b>________________________________</center><br>
+	</div><br>
+	
+	<ul>
+	<li class="ww">
+		
+		<img src="uytrd.jpg">
+		<div><font size="+2"><b>For Homr Decoration</b></font><br><br>
+			<ul >
+				<li class="mn"><a class="mnb" href="LED lamps.html" target="_blank">&nbsp;&nbsp;Shop sconces&nbsp;&nbsp;</a></li>
+				</ul>
+		
+		</div>
+		
+		</li>
+	
+	
+		
+		<li class="hh">
+			<img src="YUIO.jpg">
+			<div><b><font size="+1">Maximum Volatages of LED</font></b><br>
+				<ul>
+				<li class="nn"><br>
+					<a class="mnb" href="LED lamps.html" target="_blank">&nbsp;&nbsp;Show more&nbsp;&nbsp;</a></li>
+					</ul>
+		
+			
+			
+			</div>			
+			</li>
+		
+		
+		
+		<li class="hh">
+			<img src="cv.png">
+			<div><b><font size="+2">Night Lamps(LED)</font></b><br><br>
+				<ul >
+				<li class="mn" ><a class="mnb" href="LED lamps.html" target="_blank">&nbsp;&nbsp;Shop the Look&nbsp;&nbsp;</a></li>
+				</ul>
+			
+			
+			</div>			
+			</li>
+		<li class="hh">
+			<img src="cvb.jpg"><br>
+
+			<div><b><font size="+2">LED Rop Light</font></b><br><br>
+				<ul >
+				<li class="mn" ><a class="mnb" href="https://www.amazon.in/Original-White-Ceiling-Driver-Included/dp/B07J6H5SFN?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=_k_CjwKCAiAzanuBRAZEiwA5yf4uqcGesrj80c9SGKkrE0dcO6B0HtYXf8EQZ6okB8Shi3X9lzyj8oM9xoClgAQAvD_BwE_k_&gclid=CjwKCAiAzanuBRAZEiwA5yf4uqcGesrj80c9SGKkrE0dcO6B0HtYXf8EQZ6okB8Shi3X9lzyj8oM9xoClgAQAvD_BwE" target="_blank">&nbsp;&nbsp;Buy this Product&nbsp;&nbsp;</a></li>
+				</ul>
+			
+			
+			</div>			
+			</li>
+		
+		</ul>
+	<div class="vv">
+       <center >________________________________<b class="qsc">LED Pannels</b>____________________</center><br>
+	</div><br>
+	
+	<ul>
+	<li class="ww">
+		
+		<img src="Led pannels1.jpg">
+		<div><font size="+2"><b>Greets your Guests</b></font><br><br>
+			<ul >
+				<li class="mn"><a class="mnb" href="#">&nbsp;&nbsp;Shop sconces&nbsp;&nbsp;</a></li>
+				</ul>
+		
+		</div>
+		
+		</li>
+	
+	
+		
+		<li class="iu">
+			<img src="led pannels2.jpg">
+			<div><b><font size="+1">Lighting,Rugs & Home Decore</font></b><br>
+				<ul>
+				<li class="nn"><br>
+					<a class="mnb" href="#">&nbsp;&nbsp;Show more&nbsp;&nbsp;</a></li>
+					</ul>
+		
+			
+			
+			</div>			
+			</li>
+		
+		
+		
+		<li class="iu">
+			<img src="led pannel3.png">
+			<div><b><font size="+2">Modern Chandelires</font></b><br><br>
+				<ul >
+				<li class="mn" ><a class="mnb" href="#">&nbsp;&nbsp;Shop the Look&nbsp;&nbsp;</a></li>
+				</ul>
+			
+			
+			</div>			
+			</li>
+		
+		</ul>
+	<br>
+	<br>
+	<div class="d">
+	
+	<center class="k">Here is the Lightning Of The World</center>
+<small>BE The first To find out The Smart Lightning And Find Also Some New Technology Lights.</small>
+	
+	</div><br>
+	
+	<input class="y" type="text" name="feedback" placeholder="Enter Email " required ><a class="s" href="lightning.html" >Subscribe</a>
+	
+	
+	<a  href="https://www.instagram.com/shadesoflight/"><img class="b" src="insta.png"></a>
+	<a  href="https://www.facebook.com/Shades-of-Light-115293741872"><img class="j" src="fac.jpg"></a>
+	<a  href="https://twitter.com/ShadesofLightVA"><img class="h" src="download.png"></a>
+	<br>
+	<br>
+	<br>
+	
+	<div class="n">
+	
+	<b class="l">Resources</b>     <b class="v">customer services</b><b class="v">Blog</b><br>
+<br><a class="g" href="#">Request a catalog</a><a class="sh" href="https://www.shadesoflight.com/pages/shipping">shipping information</a><a class="sh" href="https://www.shadesoflight.com/blogs">Inspire spaces blog</a><br>
+<br><a class="f" href="#">Designer trade program</a><a class="x" href="https://www.shadesoflight.com/pages/returns">Returns & Exchanges</a><a class="sh" href="https://www.shadesoflight.com/blogs/design-guides">Design guides</a><br>
+		<br><a class="l" href="https://www.shadesoflight.com/pages/jobs">Carrers</a><a class="i" href="help1.html">contact us</a><a class="v" href="https://www.shadesoflight.com/blogs/styles-and-trends">Style & Trands</a>
+		</div>
+	<br>
+<div class="rudra">
+	
+	
+	<justify><a class="tt" href="#">Privacy policy  |  Terms & conditions</a></justify>
+	</div>
+	
+	
+		
+	
+	</body>
+</html>

@@ -1,0 +1,551 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LED lmaps</title>
+<style>
+	body
+		{margin:0px;
+	background-color: ghostwhite;
+	}
+		
+			
+		
+		ul
+{
+	list-style-type: none;
+  padding: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  margin: 0px;
+  overflow:auto;
+ 
+		}
+		
+ul li{
+	padding: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0px;
+	float: left;
+	background-color: yellow;
+	color: purple;
+}
+
+li a.s{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  display: block;
+	text-transform: capitalize;
+  color: purple;
+	font-size: 20px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	background-color: yellow;
+}
+	li a.h{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  display: block;
+		font-size: 20px;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+		text-transform: capitalize;
+  text-decoration: none;
+	background-color: yellow;
+}
+	li a.r{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  display: block;
+  color: purple;
+		text-transform: capitalize;
+  text-align: center;
+  padding: 14px 16px;
+		font-size: 20px;
+  text-decoration: none;
+	background-color: yellow;
+}
+	li a.e{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  display: block;
+  color: purple;
+		font-size: 20px;
+  text-align: center;
+		text-transform: capitalize;
+  padding: 14px 16px;
+  text-decoration: none;
+	background-color: yellow;
+}
+.active{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: purple;
+	color: yellow;
+	text-transform: capitalize;
+	 padding:20px 20px 10px  ;
+	text-decoration:none;
+	font-size: 20px;
+	}
+		li a:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: purple;
+	color: white;
+	text-transform: capitalize;
+		}
+
+.tttt
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	position: absolute;
+	left: auto;
+	top:auto;
+	height: auto;
+	right:auto;
+	z-index: -1;
+    opacity: auto;
+}
+		h4
+		{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			overflow: visible;
+		text-align: justify;
+    padding-top: 40px;
+	text-transform: capitalize;
+	font-size: 50px;
+	color:burlywood;
+			margin-bottom: 250px;
+	
+		}
+		
+	.ii{
+			background-color: black;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			padding: 0px;
+			margin: 0px;
+	}
+	.ww{
+			background-color: beige;
+			color: black;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.vv{
+			background-color:gray;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 30px;
+			margin-top: 5px;
+		}
+		.mn{
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-top;5px;
+			float: right;
+			
+			text-decoration:none; 
+			
+		}
+		.mnb{
+			background-color: grey;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color:azure;
+			text-decoration: none;
+			font-size: 25px;
+			float: right;
+			margin: 0px;
+			border: 1px solid  #000000;
+
+		}
+		.mnb:hover{
+			background-color:black;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: ghostwhite;
+		}
+		.zx{
+			margin-left: 50px;
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+		}
+		.footer{
+			background-color:black;
+			color: lightyellow;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.footer1{
+			background-color: black;
+			color: lightyellow;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+		}
+			.d{
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color: beige;
+			font-size: 20px;
+			text-align: center;
+			padding: 3px;
+			margin-left: 10px;
+		}
+		.s{
+			display: inline-block;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			background-color:burlywood;
+  color: white;
+  padding: 5px 25px;
+			text-decoration:none;
+  text-align: center;
+		}
+		.y{
+			font-size: 20px;
+			margin-left: 90px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.k{
+			font-size: 35px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.b{
+			
+			margin-left: 190px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-top: 20px;
+		}
+		.j{
+			margin-left: 20px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.h{
+			margin-left: 20px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		}
+		.j:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.h:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.b:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			box-shadow: 0 0 5px 5px black;
+		}
+		.l{
+			color: black;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			margin-left: 120px;
+		}
+		.l{
+			text-decoration: none;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			
+		}
+		.l:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+		}
+		.g{
+			color: darkgray;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			margin-left: 100px;
+		}
+		.g:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.f{
+			margin-left: 80px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: none;
+			color: darkgray;
+		}
+		.f:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.v{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 140px;
+			color: black;
+			text-decoration: none;
+		}
+		.v:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.sh{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 100px;
+			text-decoration: none;
+			color: darkgray;
+		}
+		.sh:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.x{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 80px;
+			text-decoration: none;
+			color: darkgray;
+		}
+		.x:hover{
+			text-decoration: underline;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: black;
+		}
+		
+		.i{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			margin-left: 180px;
+			color: darkgray;
+			text-decoration: none;
+		}
+		.i:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			text-decoration: underline;
+			color: black;
+		}
+		.rudra{
+			background-color: beige;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			padding: 20px;
+			font-size: 15px;
+			
+		}
+		.tt{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: black;
+			text-decoration: none;
+		}
+		.tt:hover{
+			text-decoration: underline;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			
+		}
+		@media screen and (max-width:400px) {
+	 /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+ 
+  }
+	hr{
+		margin-top: 0px;
+		display: block;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="ii">		  
+ <img class="header" src="logo 1.png" width="70px"   align="left"/>
+		<font  size="+5" color="aqua"	>Lightning The world</font>
+	
+<ul>
+		<li><br><a class="active" href="website.html">Menu</a></li>
+		
+		<li><a class="s" href="help1.html" >contact us</a></li>
+		<li><a class="e" href="abiut us.html">about</a></li>
+		<li><a class="r" href="custm.html" >customer care</a></li>
+	</ul>
+	</div>
+	
+	
+	<img class="tttt" src="LED home page.jpg">
+		<h4>DISTINGUISH YOUR STYLE</h4>
+	
+	<div class="vv">
+		<center>___________________________<b class="qsc">variety&nbsp;of&nbsp;LED&nbsp;Lamps</b>___________________________</center>
+</center><br>
+	</div><br>
+		
+			<ul>
+		<li class="ww">
+	<img src="LED1.jpg">
+
+	<div><b><font size="+2">LED</b></font><br>
+		<center><b><font size="+2">₹1570.00</font></b></center>
+		</div>
+	</li>
+			
+		<li class="zx">
+	<img  src="LEd2.jpg">
+
+	<div><b><font size="+2">Vanity Lightning</font></b><br><br>
+		<center><b><font size="+2">₹1750.00</font></b></center>
+	</div>
+		</li>
+				
+		
+		
+	<li class="zx">
+	<img src="LED3.jpg">
+
+	<div><b><font size="+2">Rustic</font></b><br>
+		<center><b><font size="+2">₹569.00</font></b></center>
+		</div>
+	</li>
+	</ul>
+		<br>
+
+				<ul>
+		
+			
+		<li class="ww">
+	<img  src="LED4.jpg">
+
+	<div><b><font size="+2">Vanity Lightning</font></b><br><br>
+		<center><b><font size="+2">₹799.00</font></b></center>
+	</div>
+		</li>
+	<li class="zx">
+		
+		<img src="LED5.jpg">
+		<div><b><font size="+2">Bathroom & Vanity <br>Mirrors</font></b>
+			<center><b><font size="+2">₹399.00</font></b></center></div>
+				<li class="zx">
+		
+		<img src="LED6.jpg">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹999.00</font></b></center>
+		</div>
+		</li>
+	
+	</ul>
+					<br>
+		<ul>
+				
+	<li class="ww">
+		
+		<img src="LED7.jpg">
+		<div><b><font size="+2">Bathroom & Vanity <br>Mirrors</font></b>
+			<center><b><font size="+2">₹350.00</font></b></center></div>
+				<li class="zx">
+		
+		<img src="LED8.jpg">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹150.00</font></b></center>
+		</div>
+		</li>
+			<li class="zx">
+		
+		<img src="LED9.jpg">
+		<div><b><font size="+2">Bathroom & Vanity <br>Mirrors</font></b>
+			<center><b><font size="+2">₹2599.00</font></b></center></div>
+				</li>
+	</ul><br>
+		<ul>
+				
+	
+				<li class="ww">
+		
+		<img src="LED10.jpg">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹69.00</font></b></center>
+		</div>
+		</li>
+						<li class="zx">
+		
+		<img src="bulb 1.jfif">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹790.00</font></b></center>
+		</div>
+		</li>
+				<li class="zx">
+		
+		<img src="bulb.jfif">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹240.00</font></b></center>
+		</div>
+		</li>
+	
+	</ul>
+	
+	<br><ul>
+				
+	
+				<li class="ww">
+		
+		<img src="LED pan.png">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹1200.00</font></b></center>
+		</div>
+		</li>
+						<li class="zx">
+		
+		<img src="YUIO - Copy.jpg">
+		<div><b><font size="+2">Scones</font></b>
+			
+		<center><b><font size="+2">₹365.00</font></b></center>
+		</div>
+		</li>
+				<li class="zx">
+		
+		<img src="uytrd - Copy.jpg">
+		<div><b><font size="+2">Full Package</font></b>
+			
+		<center><b><font size="+2">₹4990.00</font></b></center>
+		</div>
+		</li>
+	
+	</ul>
+			
+	<div class="footer">
+		<h1>UNIQUE BATHROOM LIGHTNING & BATHROOM LIGHT FIXTURES</h1>
+		<h5>Adequate lighting is crucial for bathroom vanity areas, so it is important to consider your options when selecting bath lighting. When lighting the vanity area, you can choose to mount your lighting over the mirror or beside the mirror. You do not need to rely on just an overhead ceiling light to provide light for the vanity because your head will cast a shadow on the mirror.<br><br><br>
+		
+	
+		<ul  type="square">
+		<li class="footer1">&nbsp;&nbsp;&nbsp;Bathroom Vanity Lighting is an important design consideration as it needs to provided task lighting and compliment your style. Bathroom lighting comes in two configurations a&nbsp;&nbsp;&nbsp; single strip with bulbs hidden underneath or as individual lights attached to a central backplate.</li></ul><br>
+		<ul>	<li class="footer1">&nbsp;&nbsp;&nbsp;The number of bulbs can vary from 1-6 depending on the length of the vanity and the light needed.</li></ul><br>
+		<ul>	<li class="footer1">&nbsp;&nbsp;&nbsp;Generally, you would not have the vanity light any wider than the mirror. Several of our vanity strip lights can be mounted horizontally over the mirror or vertically beside the mirror with varied lengths and number of bulbs.</li></ul><br>
+		<ul><li class="footer1">&nbsp;&nbsp;&nbsp;The type of shades varies from frosted to clear glass, fabric to sparkling crystals or minimalist bare bulbs.</li></ul></div>
+		
+	
+	<div class="d">
+	
+	<center class="k">Here is the Lightning Of The World</center>
+<small>BE The first To find out The Smart Lightning And Also Some New Technology based Lights.</small>
+	
+	</div><br>
+	
+	<input class="y" type="text" name="feedback" placeholder="Enter Email " required ><a class="s" href="lightning.html" >Subscribe</a>
+	
+	
+	<a  href="https://www.instagram.com/shadesoflight/"><img class="b" src="insta.png"></a>
+	<a  href="https://www.facebook.com/Shades-of-Light-115293741872"><img class="j" src="fac.jpg"></a>
+	<a  href="https://twitter.com/ShadesofLightVA"><img class="h" src="download.png"></a>
+	<br>
+	<br>
+	<br>
+	
+	<div class="n">
+	
+	<b class="l">Resources</b>     <b class="v">customer services</b><b class="v">Blog</b><br>
+<br><a class="g" href="#">Request a catalog</a><a class="sh" href="https://www.shadesoflight.com/pages/shipping">shipping information</a><a class="sh" href="https://www.shadesoflight.com/blogs">Inspire spaces blog</a><br>
+<br><a class="f" href="#">Designer trade program</a><a class="x" href="https://www.shadesoflight.com/pages/returns">Returns & Exchanges</a><a class="sh" href="https://www.shadesoflight.com/blogs/design-guides">Design guides</a><br>
+		<br><a class="l" href="https://www.shadesoflight.com/pages/jobs">Carrers</a><a class="i" href="help1.html">contact us</a><a class="v" href="https://www.shadesoflight.com/blogs/styles-and-trends">Style & Trands</a>
+		</div>
+	<br>
+<div class="rudra">
+	
+	
+	<justify><a class="tt" href="#">Privacy policy  |  Terms & conditions</a></justify>
+	</div>
+	
+	
+		
+	
+
+
+</body>
+</html>
